@@ -1,0 +1,20 @@
+<package>
+  <description brief="tele_doll_catcher">
+
+  Catch a doll in a doll-catching machine with your left hand
+  rather than a traditional joystick. You'll need an Arduino to
+  run this package.Based on Garratt(from MIT)'s skeletal_tracker.
+
+  </description>
+  <author>AzureViolin</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/bjmakerspace-ros-pkg/tele_doll_catcher</url>
+  <depend package="roscpp"/>
+  <depend package="skeletal_tracker"/>
+  <depend package="body_msgs"/>
+  <depend package="rosserial_arduino"/>
+  <depend package="rosserial_client"/>
+</package>
+
+
